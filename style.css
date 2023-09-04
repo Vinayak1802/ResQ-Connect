@@ -41,4 +41,47 @@
     border-top: 1px solid #ddd;
     outline: none;
   }
+  /* Styling for the navbar news section */
+.navbar-news {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Styling for individual news articles */
+.news-article {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for news images */
+.news-image {
+  width: 100px; /* Adjust the image width as needed */
+  height: 100px; /* Adjust the image height as needed */
+  object-fit: cover;
+  border-radius: 8px; /* Add rounded corners to the image */
+}
+
+
+
+
+
+
+/* Styling for news info */
+.news-info {
+  margin-left: 10px;
+}
+
+/* Styling for news titles */
+.news-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Styling for news descriptions */
+.news-description {
+  font-size: 14px;
+  margin: 5px 0;
+}
   
