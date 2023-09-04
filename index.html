@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResQ-Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-blue-700 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+          
+          <div class="flex items-center">
+            <span class="text-white text-2xl font-semibold mr-2">ResQ-Connect</span>
+           
+          </div>
+    
+    <ul class="flex space-x-4">
+      <li><a href="index.html" class="text-white hover:text-gray-300">Home</a></li>
+      <li><a href="AboutUs.html" class="text-white hover:text-gray-300">About Us</a></li>
+      <li><a href="#" class="text-white hover:text-gray-300">Services</a></li>
+      <li><a href="#" class="text-white hover:text-gray-300">Live Updates</a></li>
+      <li><a href="#" class="text-white hover:text-gray-300">Chatbot</a></li>
+      <li><a href="#" class="text-white hover:text-gray-300">Donate/Support</a></li>
+      <li><a href="#" class="text-white hover:text-gray-300">News</a></li>
+
+    </ul>
+    
+    
+    <div class="relative">
+      <input type="text" placeholder="Search" class="bg-gray-200 text-gray-700 border rounded-full py-2 px-4 focus:outline-none focus:bg-white focus:border-blue-500">
+      <button class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600 hover:text-gray-800">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m0-6a6 6 0 11-12 0 6 6 0 0112 0z" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Content Area -->
+<div class="container mx-auto mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Left Column: Safety Tips and Resources -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-4">Safety Tips and Resources</h2>
+        <p>
+          Be prepared for disasters. Follow these safety tips to protect yourself and your loved ones:
+        </p>
+        <ul class="list-disc pl-4 mt-2">
+          <li>Create an emergency kit with essential supplies.</li>
+          <li>Know evacuation routes in your area.</li>
+          <li>Stay informed through official channels.</li>
+        </ul>
+        <p class="mt-4">
+          Explore our resources to learn more:
+        </p>
+        <ul class="list-disc pl-4 mt-2">
+          <li><a href="#">Disaster Preparedness Guide</a></li>
+          <li><a href="#">Emergency Kit Checklist</a></li>
+          <li><a href="#">Evacuation Plan Template</a></li>
+        </ul>
+      </div>
+  
+      <!-- Right Column: Latest Updates -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-4">Latest Updates</h2>
+        <div class="border rounded-lg p-4 bg-gray-100">
+          <h3 class="text-lg font-semibold">Tropical Storm Alert</h3>
+          <p class="text-sm text-gray-600">Posted on September 12, 2023</p>
+          <p>
+            A tropical storm is approaching the coastal areas of our region. Stay tuned for official updates and follow evacuation instructions if necessary.
+          </p>
+        </div>
+        <div class="border rounded-lg p-4 bg-gray-100 mt-4">
+          <h3 class="text-lg font-semibold">Earthquake Preparedness Webinar</h3>
+          <p class="text-sm text-gray-600">Posted on September 5, 2023</p>
+          <p>
+            Join our upcoming webinar on earthquake preparedness, featuring experts in the field. Register now to learn valuable tips and strategies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="chatbot-container">
+    <button id="chatbot-button">Chat with ResQ-Bot</button>
+    <div id="chatbot" class="hidden">
+      
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+<footer class="bg-black text-white py-6">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Contact Information -->
+        <div>
+          <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
+          <p>Phone: +91  123-456-7890</p>
+          <p>Email: info@resqconnect.org</p>
+          <p>Address: Mumbai</p>
+        </div>
+        
+        <!-- Quick Links -->
+        <div>
+          <h3 class="text-lg font-semibold mb-3">Quick Links</h3>
+          <ul>
+            <li><a href="#">Emergency Resources</a></li>
+            <li><a href="#">News Updates</a></li>
+            <li><a href="#">Safety Tips</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        
+        <!-- Social Media and Newsletter -->
+        <div>
+          <h3 class="text-lg font-semibold mb-3">Connect With Us</h3>
+          <div class="flex space-x-4">
+            <a href="#" class="glow-text">Facebook</a>
+            <a href="#" class="glow-text">Twitter</a>
+            <a href="#" class="glow-text">Instagram</a>
+          </div>
+          <p>Subscribe to our Newsletter:</p>
+          <form class="mt-2">
+            <input type="email" placeholder="Your Email" class="w-full py-2 px-3 bg-gray-800 border border-gray-600 rounded-full text-white focus:outline-none focus:border-blue-500">
+            <button type="submit" class="mt-2 glow-button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      
+      <!-- Copyright and Disclaimer -->
+      <div class="mt-6 text-center">
+        <p>&copy; 2023 ResQ-Connect. All rights reserved.</p>
+        <p>Disclaimer: This website is for informational purposes only.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+    
+</body>
+</html>

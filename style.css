@@ -1,0 +1,44 @@
+/* Style for the chatbot button */
+#chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Increase the border-radius to make it larger */
+    width: 80px; /* Increase the width to make it larger */
+    height: 80px; /* Increase the height to make it larger */
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Style for the chatbot container */
+  #chatbot {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Style for chat messages */
+  #chatbot-messages {
+    padding: 10px;
+    height: 80%;
+    overflow-y: auto;
+  }
+  
+  /* Style for user input */
+  #user-input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ddd;
+    outline: none;
+  }
+  
