@@ -16,79 +16,160 @@
         <div class="flex space-x-4 md:hidden">
             <!-- This button will appear on small screens to toggle the menu -->
             <button id="menu-toggle" class="text-white hover:text-gray-300">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </button>
         </div>
         <ul id="menu" class="hidden md:flex space-x-4">
             <li><a href="index.html" class="text-white hover:text-gray-300">Home</a></li>
-            <li><a href="AboutUs.html" class="text-white hover:text-gray-300">About Us</a></li>
-            <li><a href="services.html" class="text-white hover:text-gray-300">Services</a></li>
+            <li><a href="#" class="text-white hover:text-gray-300">About Us</a></li>
+            <li><a href="#Services" class="text-white hover:text-gray-300">Services</a></li>
             <li><a href="#" class="text-white hover:text-gray-300">Live Updates</a></li>
             <li><a href="#" class="text-white hover:text-gray-300">Chatbot</a></li>
             <li><a href="#" class="text-white hover:text-gray-300">Donate/Support</a></li>
             <li><a href="news.html" class="text-white hover:text-gray-300">News</a></li>
         </ul>
         <div class="relative hidden md:block">
-            <input type="text" placeholder="Search" class="bg-gray-200 text-gray-700 border rounded-full py-2 px-4 focus:outline-none focus:bg-white focus:border-blue-500">
+            <input type="text" placeholder="Search"
+                class="bg-gray-200 text-gray-700 border rounded-full py-2 px-4 focus:outline-none focus:bg-white focus:border-blue-500">
             <button class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600 hover:text-gray-800">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m0-6a6 6 0 11-12 0 6 6 0 0112 0z" />
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-6-6m0-6a6 6 0 11-12 0 6 6 0 0112 0z" />
                 </svg>
             </button>
         </div>
     </div>
 </nav>
 
-    <div class="container mx-auto mt-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
+<section id="Counters" class="text-center mt-8">
+    <h2 class="text-3xl font-semibold mb-4">Disaster Statistics</h2>
+    <div class="grid grid-cols-2 gap-4">
+        <div class="counter">
+            <h3 class="text-2xl font-semibold mb-2">Deaths due to Man-Made Disasters</h3>
+            <p class="text-4xl font-bold" id="man-made-counter">0</p>
+        </div>
+        <div class="counter">
+            <h3 class="text-2xl font-semibold mb-2">Deaths due to Natural Disasters</h3>
+            <p class="text-4xl font-bold" id="natural-counter">0</p>
+        </div>
+    </div>
+</section>
+
+<div class="container mx-auto mt-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
             <h2 class="text-2xl font-semibold mb-4">Safety Tips and Resources</h2>
             <p>
-              Be prepared for disasters. Follow these safety tips to protect yourself and your loved ones:
+                Be prepared for disasters. Follow these safety tips to protect yourself and your loved ones:
             </p>
             <ul class="list-disc pl-4 mt-2">
-              <li>Create an emergency kit with essential supplies.</li>
-              <li>Know evacuation routes in your area.</li>
-              <li>Stay informed through official channels.</li>
+                <li>Create an emergency kit with essential supplies.</li>
+                <li>Know evacuation routes in your area.</li>
+                <li>Stay informed through official channels.</li>
             </ul>
             <p class="mt-4">
-              Explore our resources to learn more:
+                Explore our resources to learn more:
             </p>
             <ul class="list-disc pl-4 mt-2">
-              <li><a href="#">Disaster Preparedness Guide</a></li>
-              <li><a href="#">Emergency Kit Checklist</a></li>
-              <li><a href="#">Evacuation Plan Template</a></li>
+                <li><a href="#">Disaster Preparedness Guide</a></li>
+                <li><a href="#">Emergency Kit Checklist</a></li>
+                <li><a href="#">Evacuation Plan Template</a></li>
             </ul>
-          </div>
-          <div>
+        </div>
+        <div>
             <h2 class="text-2xl font-semibold mb-4">Latest Updates</h2>
             <div class="border rounded-lg p-4 bg-gray-100">
-              <h3 class="text-lg font-semibold">Tropical Storm Alert</h3>
-              <p class="text-sm text-gray-600">Posted on September 12, 2023</p>
-              <p>
-                A tropical storm is approaching the coastal areas of our region. Stay tuned for official updates and follow evacuation instructions if necessary.
-              </p>
+                <h3 class="text-lg font-semibold">Tropical Storm Alert</h3>
+                <p class="text-sm text-gray-600">Posted on September 12, 2023</p>
+                <p>
+                    A tropical storm is approaching the coastal areas of our region. Stay tuned for official updates
+                    and follow evacuation instructions if necessary.
+                </p>
             </div>
             <div class="border rounded-lg p-4 bg-gray-100 mt-4">
-              <h3 class="text-lg font-semibold">Earthquake Preparedness Webinar</h3>
-              <p class="text-sm text-gray-600">Posted on September 5, 2023</p>
-              <p>
-                Join our upcoming webinar on earthquake preparedness, featuring experts in the field. Register now to learn valuable tips and strategies.
-              </p>
+                <h3 class="text-lg font-semibold">Earthquake Preparedness Webinar</h3>
+                <p class="text-sm text-gray-600">Posted on September 5, 2023</p>
+                <p>
+                    Join our upcoming webinar on earthquake preparedness, featuring experts in the field. Register
+                    now to learn valuable tips and strategies.
+                </p>
             </div>
-          </div>
         </div>
     </div>
+</div>
 
-    <div id="chatbot-container">
-        <button id="chatbot-button">Chat with ResQ-Bot</button>
-        <div id="chatbot" class="hidden">
+<div id="chatbot-container">
+    <button id="chatbot-button">Chat with ResQ-Bot</button>
+    <div id="chatbot" class="hidden">
+    </div>
+</div>
+
+<section id="Services" class="py-5">
+    <div class="container mx-auto">
+        <h2 class="text-center text-2xl font-semibold mb-4">Together, We Can Rebuild: Contribute to Disaster
+            Recovery😇</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 p-4">
+                <div class="bg-white rounded-lg shadow-md">
+                    <div class="p-4 border-b">
+                        <h3 class="text-lg font-semibold">Donation</h3>
+                    </div>
+                    <div class="p-4">
+                        <p>Providing funds to disaster-hit regions.</p>
+                        <p>Your support can make a meaningful difference in social safety</p>
+                        <button
+                            class="w-full bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+                            type="button">Donate</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 p-4">
+                <div class="bg-white rounded-lg shadow-md">
+                    <div class="p-4 border-b">
+                        <h3 class="text-lg font-semibold">Hospitality</h3>
+                    </div>
+                    <div class="p-4">
+                        <p>Providing First Aid and complete Treatment.</p>
+                        <p>Temporary Shelters and Food to victims.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 p-4">
+                <div class="bg-white rounded-lg shadow-md">
+                    <div class="p-4 border-b">
+                        <h3 class="text-lg font-semibold">Rescue</h3>
+                    </div>
+                    <div class="p-4">
+                        <p>Rescuing the victims with safety measures ensured.</p>
+                        <p>Complete Assistance of Civil & other services required.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-1 md:col-span-2 lg:col-span-1 p-4">
+                <div class="bg-white rounded-lg shadow-md">
+                    <div class="p-4 border-b">
+                        <h3 class="text-lg font-semibold">Our Partners</h3>
+                    </div>
+                    <div class="p-4">
+                        <p>Making it easier for us to provide helping hands.</p>
+                        <p>50+ Organizations are part of our group now.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    </section>
 
-    <!-- FOOTER -->           <!-- FOOTER -->            <!-- FOOTER -->                    <!-- FOOTER -->                  <!-- FOOTER -->             <!-- FOOTER -->
+    <!-- FOOTER -->
     <footer class="bg-black text-white py-6">
         <div class="container mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
